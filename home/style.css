@@ -6,12 +6,13 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+body{
+    overflow-x: hidden;
 
+}
 .container {
-    position: absolute;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,6 +138,14 @@
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.5s;
+}
+
+.wajcds{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 800px) {
