@@ -108,7 +108,6 @@ form h2{
     padding: 8px 10px;
     background: transparent;
     color: #fff;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 .inputBx input::placeholder{
