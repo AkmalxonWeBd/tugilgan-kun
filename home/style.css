@@ -124,6 +124,13 @@ body{
     opacity: 0;
 }
 
+.tabrik{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
 .content h2 {
     font-size: 4em;
     color: #fff;
@@ -196,5 +203,14 @@ body{
     .content p {
         color: #fff;
         font-size: 0.7em;
+    }
+    .tabrik img{
+        height: 150px;
+    }
+    .tabrik h1,.tabrik h2{
+        font-size: 5px;
+    }
+    .tabrik{
+        padding: 0 5px;
     }
 }
